@@ -2,7 +2,7 @@
   "name": "shopping-cart3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ShivanshSharma1.github.io/Shopping-Cart-with-react-redux",
+  "homepage": "http://ShivanshSharma1.github.io/Shopping-Cart-with-react-redux.git",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
