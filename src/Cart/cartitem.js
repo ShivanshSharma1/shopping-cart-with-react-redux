@@ -23,6 +23,10 @@ const ItemIn = styled.div`
     text-align: center;
 `
 
+const LinkIn = styled.div`
+    margin-top: 10px;
+`
+
 const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         removeFromCart:() => dispatch({type: "REMOVEFROMCART",
@@ -49,7 +53,9 @@ const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
                 REMOVE FROM CART
             </button>
             <div></div>
+            <LinkIn>
             <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>   
+            </LinkIn>
         </ItemIn>
         </div>
         </ForItem>

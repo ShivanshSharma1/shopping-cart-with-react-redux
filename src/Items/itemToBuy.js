@@ -23,7 +23,9 @@ const ItemIn = styled.div`
     padding-top: 30px;
     text-align: center;
 `
-
+const LinkIn = styled.div`
+    margin-top: 10px;
+`
 const mapDispatchToProps = (dispatch, ownProps) => {
     
     return {
@@ -43,7 +45,7 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
         <ForItem >
         <div>
         <ForImage >
-            <img src={src}/>
+            <img src={src} style={{width: "225px"}}/>
         </ForImage>
             <ItemIn >
             <div>{name}</div>
@@ -54,8 +56,10 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
                                                                                     }}>
                     {inCart ? "ADDED TO CART" : "ADD TO CART"}
             </button>
-            <div></div>          
-            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>                 
+            <div></div>
+            <LinkIn >         
+            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>
+            </LinkIn>             
             </ItemIn>
         </div>
         </ForItem>

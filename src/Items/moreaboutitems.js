@@ -18,7 +18,7 @@ const ImgIn = styled.div`
 `
 
 const DescriptionIn = styled.div`
-    border: 5px black solid;
+    border: 5px #b1def7 solid;
     border-radius: 27px;
     margin: auto;
     width: 575px;
@@ -47,7 +47,7 @@ const MoreAboutItems = ({src, description, name, inCart, addToCart, cartButton})
     return (
         <ItemIn>
         <ImgIn>
-        <img src={src} />
+        <img src={src} style={{width: "400px"}}/>
         </ImgIn>
         <h2 >{name}</h2>
         <DescriptionIn >
