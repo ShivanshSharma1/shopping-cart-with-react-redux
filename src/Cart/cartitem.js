@@ -48,6 +48,7 @@ const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
             }} > 
                 REMOVE FROM CART
             </button>
+            <div></div>
             <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>   
         </ItemIn>
         </div>
