@@ -47,7 +47,7 @@ const MoreAboutItems = ({src, description, name, inCart, addToCart, cartButton})
     return (
         <ItemIn>
         <ImgIn>
-        <img src={src} alt="image not loading error" style={{width: "400px"}}/>
+        <img src={src} alt="loading error" style={{width: "400px"}}/>
         </ImgIn>
         <h2 >{name}</h2>
         <DescriptionIn >

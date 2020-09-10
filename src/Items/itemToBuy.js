@@ -45,7 +45,7 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
         <ForItem >
         <div>
         <ForImage >
-            <img src={src} alt="image not loading error" style={{width: "225px"}}/>
+            <img src={src} alt="loading error" style={{width: "225px"}}/>
         </ForImage>
             <ItemIn >
             <div>{name}</div>
