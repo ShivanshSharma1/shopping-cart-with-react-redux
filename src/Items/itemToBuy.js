@@ -45,7 +45,7 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
         <ForItem >
         <div>
         <ForImage >
-            <img src={src} alt="loading error" style={{width: "225px"}}/>
+            <img src={src} alt="not loading" style={{width: "225px"}}/>
         </ForImage>
             <ItemIn >
             <div>{name}</div>
@@ -58,7 +58,7 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
             </button>
             <div></div>
             <LinkIn >         
-            <Link to={`https://shopping-cart1234.netlify.app/${name}`}>MORE ABOUT THE PRODUCT</Link>
+            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>
             </LinkIn>             
             </ItemIn>
         </div>
