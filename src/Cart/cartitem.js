@@ -41,7 +41,7 @@ const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
         <ForItem >
         <div>
         <ForImage >
-            <img src={src}/>
+            <img src={src} alt="image not loading error" style={{width: "225px"}}/>
         </ForImage>
         <ItemIn >
             <div>{name}</div>
