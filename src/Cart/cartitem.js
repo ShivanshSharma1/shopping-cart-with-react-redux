@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const ForImage = styled.div`
     padding-top: 25px;
@@ -31,7 +32,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     }
 }
 
-const CartItem = ({name, price, id, src, description, removeFromCart, addToItems}) => {
+const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
     return (
         <ForItem >
         <div>
@@ -47,6 +48,7 @@ const CartItem = ({name, price, id, src, description, removeFromCart, addToItems
             }} > 
                 REMOVE FROM CART
             </button>
+            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>   
         </ItemIn>
         </div>
         </ForItem>

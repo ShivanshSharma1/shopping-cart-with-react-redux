@@ -1,8 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
-import MoreAboutItems from './moreaboutitems'
+import {Link} from 'react-router-dom'
 
 const ForImage = styled.div`
     padding-top: 25px;
@@ -55,10 +54,8 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
                                                                                     }}>
                     {inCart ? "ADDED TO CART" : "ADD TO CART"}
             </button>
-            <div></div>
-           
-            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>     
-                             
+            <div></div>          
+            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>                 
             </ItemIn>
         </div>
         </ForItem>

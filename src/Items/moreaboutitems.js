@@ -43,7 +43,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 }
 
 
-const MoreAboutItems = ({src, description, id, name, price, inCart, addToCart, cartButton}) => {
+const MoreAboutItems = ({src, description, name, inCart, addToCart, cartButton}) => {
     return (
         <ItemIn>
         <ImgIn>
