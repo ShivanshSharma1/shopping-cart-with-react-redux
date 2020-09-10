@@ -28,6 +28,7 @@ const Cart = (state=[], action) => {
             return state.filter(p => p.id !== action.id)
 
         case 'ADDTOCART':
+            console.log(state)
             return [...state, {name, price, id, src, inCart}]
         
         default:

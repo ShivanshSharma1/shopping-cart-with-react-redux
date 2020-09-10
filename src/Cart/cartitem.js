@@ -31,7 +31,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     }
 }
 
-const CartItem = ({name, price, id, src, removeFromCart, addToItems}) => {
+const CartItem = ({name, price, id, src, description, removeFromCart, addToItems}) => {
     return (
         <ForItem >
         <div>
