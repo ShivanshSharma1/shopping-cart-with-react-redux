@@ -54,7 +54,7 @@ const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
             </button>
             <div></div>
             <LinkIn>
-            <Link to={`/${name}`}>MORE ABOUT THE PRODUCT</Link>   
+            <Link to={`https://shopping-cart1234.netlify.app/${name}`}>MORE ABOUT THE PRODUCT</Link>   
             </LinkIn>
         </ItemIn>
         </div>
