@@ -16,13 +16,13 @@ const NavBar = ({Item, Cart, ItemData}) => {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <Link to="/shopping-cart-with-react-redux" class="nav-link" href="#">Home <span class="sr-only">(current)</span></Link>
+                <Link to="/" class="nav-link" href="#">Home <span class="sr-only">(current)</span></Link>
                 <Link to='/cart' class="nav-link" href="#">Cart</Link>
                 </div>
             </div>
             </nav>
             <Switch>
-                <Route exact path='/shopping-cart-with-react-redux'>
+                <Route exact path='/'>
                     <Item />
                 </Route>
                 <Route path='/cart'>
