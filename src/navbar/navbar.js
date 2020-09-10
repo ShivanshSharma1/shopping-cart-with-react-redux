@@ -16,8 +16,8 @@ const NavBar = ({Item, Cart, ItemData}) => {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <Link to="/" class="nav-link" href="#">Home <span class="sr-only">(current)</span></Link>
-                <Link to='/cart' class="nav-link" href="#">Cart</Link>
+                <Link to="/" class="nav-link" >Home <span class="sr-only">(current)</span></Link>
+                <Link to='/cart' class="nav-link" >Cart</Link>
                 </div>
             </div>
             </nav>
