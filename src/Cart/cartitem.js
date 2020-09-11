@@ -46,7 +46,7 @@ const CartItem = ({name, price, src, removeFromCart, addToItems}) => {
         <ItemIn >
             <div>{name}</div>
             <div>{price}</div>
-            <button type="button" class="btn btn-outline-primary" onClick={() => {
+            <button type="button" class="btn btn-outline-dark" onClick={() => {
                 removeFromCart()
                 addToItems()
             }} > 
