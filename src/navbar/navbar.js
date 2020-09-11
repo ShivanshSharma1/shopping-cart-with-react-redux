@@ -9,8 +9,8 @@ const NavBar = ({Item, Cart, ItemData}) => {
     return (
         <Router>
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light " style={{height:"75px", background: "#e3f2fd"}}>
-            <div class="navbar-brand">Shopping Cart</div>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{height:"75px", gradient:"true"}}>
+            <div class="navbar-brand ">Shopping Cart</div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

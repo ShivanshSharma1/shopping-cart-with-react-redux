@@ -45,12 +45,12 @@ const ItemToBuy = ({name, price, id, src, inCart, desciption, addItemToCart, car
         <ForItem >
         <div>
         <ForImage >
-            <img src={src} alt="not loading" style={{width: "225px"}}/>
+            <img class="img-thumbnail" src={src} alt="not loading" style={{width: "225px"}}/>
         </ForImage>
             <ItemIn >
             <div>{name}</div>
             <div>{price}</div>
-            <button type="button" class="btn btn-outline-primary" disabled={ inCart ? true : false} onClick={() => {addItemToCart()
+            <button type="button" class="btn btn-outline-dark" disabled={ inCart ? true : false} onClick={() => {addItemToCart()
                                                                                     cartButton()
                                                                                     
                                                                                     }}>

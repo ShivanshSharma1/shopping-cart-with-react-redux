@@ -47,7 +47,7 @@ const MoreAboutItems = ({src, description, name, inCart, addToCart, cartButton})
     return (
         <ItemIn>
         <ImgIn>
-        <img src={src} alt="not loading" style={{width: "400px"}}/>
+        <img class="img-thumbnail"src={src} alt="not loading" style={{width: "400px"}}/>
         </ImgIn>
         <h2 >{name}</h2>
         <DescriptionIn >
@@ -57,7 +57,7 @@ const MoreAboutItems = ({src, description, name, inCart, addToCart, cartButton})
         <Button >
         <button 
             type="button" 
-            class="btn btn-outline-primary btn-lg" 
+            class="btn btn-outline-dark btn-lg shadow-sm" 
             disabled={ inCart ? true : false} 
             onClick={() => {
                         addToCart()
